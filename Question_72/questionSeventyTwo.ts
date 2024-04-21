@@ -1,0 +1,10 @@
+let a:number = 5; 
+let b:number = 10; 
+console.log('Before Swapping');
+console.log(a);
+console.log(b);
+b = b-a;
+a = a+b; 
+console.log('After Swapping');
+console.log(a);
+console.log(b);
