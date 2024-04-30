@@ -6,6 +6,7 @@ const isPrime: (convNumber:number) => void = (convNumber:number) => {
     for(let i:number=2; i<convNumber; i++){
         if(convNumber%i == 0){
            checkPrime = false;
+           break;
         }
     }
     if(checkPrime){
